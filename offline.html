@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>	
+	<!-- Primary Meta Tags -->
+	<title>Mauricio Jun - Cartão Digital</title>
+	<meta name="title" content="Mauricio Jun - Cartão Digital"/>
+	<meta name="description" content="Mauricio Jun - Soluções em design, produção e gestão em Projetos Web/TI, para pequenas empresas e empreendedores, com foco nos produtos gratuitos Google."/>
+	
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website"/>
+	<meta property="og:url" content="https://mauriciojun.github.io/card/"/>
+	<meta property="og:title" content="Mauricio Jun - Cartão Digital"/>
+	<meta property="og:description" content="Mauricio Jun - Soluções em design, produção e gestão em Projetos Web/TI, para pequenas empresas e empreendedores, com foco nos produtos gratuitos Google."/>
+	<meta property="og:image" content="https://mauriciojun.github.io/card/imgs/logo-mauricio-jun-01-maior-1024x1024.png"/>
+	
+	<!-- Twitter -->
+	<meta property="twitter:card" content="summary_large_image"/>
+	<meta property="twitter:url" content="https://mauriciojun.github.io/card/"/>
+	<meta property="twitter:title" content="Mauricio Jun - Cartão Digital"/>
+	<meta property="twitter:description" content="Mauricio Jun - Soluções em design, produção e gestão em Projetos Web/TI, para pequenas empresas e empreendedores, com foco nos produtos gratuitos Google."/>
+	<meta property="twitter:image" content="https://mauriciojun.github.io/card/imgs/logo-mauricio-jun-01-maior-1024x1024.png"/>
+	
+	<meta name="keywords" content="Terapeuta Ocupacional, Terapia Ocupacional, Alzheimer, Doença de Alzheimer, AVC, AVD, AVE, Déficit Cognitivo, Demência, Demência Vascular, Depressão, Desempenho Ocupacional, Estimulação Cognitiva, Geriatria, Gerontologia, Idoso, Idosos Ativos, Memória, Reabilitação Cognitiva, Reabilitação Funcional, Reabilitação Neurológica, Saúde Mental, Afasia, Agnosia, Arteterapia, Atendimento Domiciliar, Hemianopsia, Hemiparesia, Neurociência, Neuropsicologia, Niterói, Qualidade de Vida"/>
+	<meta name="robots" content="index, follow"/>
+	
+	<link rel="icon" href="https://mauriciojun.github.io/card/favicon/android-chrome-512x512.png" type="image/png" sizes="16x16"/>
+	
+	<script>
+		/*
+		if (navigator.onLine === true) {
+			location.replace("/card/");
+		}
+		*/
+	</script>
+	
+	<style>
+		html, body { margin: 0; padding: 0; height: 100%; background-color: #123b40; }
+		body {
+			font-family: Arial;
+			font-size: 16px;
+		}
+		#main {
+			min-height: 100%;
+			position: relative;
+			/*
+			background-image: url("imgs/mauricio-jun-card-top-bkg.png");
+			background-color: #f9f9f9;
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+			background-size: 100%;
+			*/
+			background-image: url("imgs/logo-bkg-03-mobile-transparente.png");
+			/*background-position: bottom left;*/
+			background-position: bottom center;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+		}
+		#mainheader {
+			background-image: url("imgs/mauricio-jun-card-top-bkg.png");
+			background-color: #f9f9f9;
+			background-position: top center;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+			/*background-size: contain*/
+			background-size: 100%;
+			/*background-clip: border-box;*/
+			min-height: 195px;
+		}
+		#header {
+			/*padding: 195px  20px  0px  20px;*/
+			/*padding: 39%  20px  0px  20px;*/
+			padding: 39% 20px 1.5% 20px;
+			background-image: url("imgs/header-bkg-01.png");
+			/*background-color: #282828;*/
+			background-position: bottom;
+			background-repeat: repeat-x;
+		}
+		#content {
+			/*
+			padding-top: 8px;
+			padding-right: 8px;
+			padding-bottom: 8px;
+			padding-left: 8px;
+			*/
+			/*
+			background-image: url("imgs/logo-bkg-03-mobile-transparente.png");
+			background-position: bottom left;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+			*/
+			/*background-size: contain*/
+			/*background-size: 100%;*/
+			/*background-clip: border-box;*/
+			/*min-height: 195px;*/
+		}
+		#contentarea {
+			padding: 0px 20px;
+		}
+		#footer {
+			min-height: 50px;
+			background: #282828;
+			width: 100%;
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			color: #3a8c8c;
+			border-top: 1px solid #f2b138;
+		}
+		#footer a {
+			color: #b5b5b5;
+			text-decoration: none;
+		}
+		
+		/* Style the tab */
+		#maintabs {
+			border: 1px solid #f2b138;
+		}
+		.tab {
+			overflow: hidden;
+			/*
+			border-top: 1px solid #f2b138;
+			border-right: 1px solid #f2b138;
+			border-left: 1px solid #f2b138;
+			*/
+			/*background-color: #f2b138;*/
+		}
+		
+		/* Style the buttons inside the tab */
+		.tab button {
+			/*background-color: inherit;*/
+			float: left;
+			border: none;
+			outline: none;
+			cursor: pointer;
+			padding: 12px 14px;
+			transition: 0.3s;
+			font-size: 0.8em;
+			/*color: #630f12;*/
+			color: #123b40;
+			width: 33.3%;
+			background-color: #f2b138;
+			border-radius: 0px;
+			/*border-right: 1px solid #123b40;*/
+			border-left: 1px solid #123b40;
+		}
+		.tab button:first-child {
+			border-left: none;
+		}
+		
+		/* Change background color of buttons on hover */
+		.tab button:hover {
+			background-color: #f2a03d;
+		}
+		
+		/* Create an active/current tablink class */
+		.tab button.active {
+			/*background-color: #123b40;*/
+			background-color: initial;
+			color: #fff;
+		}
+		
+		/* Style the tab content */
+		.tabcontent {
+			display: none;
+			padding: 10px 10px;
+			/*border: 1px solid #3a8c8c;*/
+			border-top: none;
+		}
+		#SOBRE {
+			color: #fff;
+			font-size: 1em;
+		}
+		.pdefault {
+			color: #fff;
+			font-size: 1em;
+		}
+		
+		.imageResponsive {
+			max-width: 100%;
+			max-height: 100%;
+			height: auto;
+		}
+		.titleHeader, .titleHeader a {
+			display: block;
+			text-align: center;
+			border: none;
+		}
+		h1.titleHeader {
+			font-size: 2em;
+			margin-block-start: 0px;
+			margin-block-end: 0px;
+			margin-inline-start: 0px;
+			margin-inline-end: 0px;
+			font-weight: bold;
+			line-height: 0.7em; /*to avoid padding-bottom*/
+			border: 1px solid #f2b138;
+			padding-top: 3px;
+			padding-bottom: 3px;
+			padding-left: 25px;
+			padding-right: 25px;
+			/*background-color: #fff;*/
+			background: rgba(255, 255, 255, 0.85);
+		}
+		.subtitle {
+			display: block;
+			font-size: 0.67em;
+			margin-block-start: 0em;
+			margin-block-end: 0em;
+			margin-inline-start: 0px;
+			margin-inline-end: 0px;
+			font-weight: bold;
+			padding-top: 0.4em;
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-bottom: 1.25em;
+			border-top: 1px solid #3a8c8c;
+			/* border-left: 3px solid #575a5a; */
+			color: #3a8c8c;
+			text-align: center;
+		}
+		.subtitle span {
+			font-weight: normal !important;
+		}
+		
+		.contentsubtitle {
+			display: block;
+			font-size: 1em;
+			margin-block-start: 0em;
+			margin-block-end: 0em;
+			margin-inline-start: 0px;
+			margin-inline-end: 0px;
+			font-weight: bold;
+			padding-top: 0.4em;
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-bottom: 10px;
+			/* border-top: 1px solid #3a8c8c;
+			border-left: 3px solid #575a5a; */
+			color: #fff;
+			text-align: center;
+		}
+		
+		/*  SECTIONS  */
+		.section {
+			clear: both;
+			padding: 0px;
+			margin: 0px;
+		}
+
+		/*  COLUMN SETUP  */
+		.col {
+			display: block;
+			float:left;
+			margin: 1% 0 1% 1.6%;
+			text-align: center;
+		}
+		.col:first-child { margin-left: 0; }
+
+		/*  GROUPING  */
+		.group:before,
+		.group:after { content:""; display:table; }
+		.group:after { clear:both;}
+		.group { zoom:1; /* For IE 6/7 */ }
+		
+		/*  GRID OF THREE  */
+		.span_3_of_3 { width: 100%; }
+		.span_2_of_3 { width: 66.13%; }
+		.span_1_of_3 { width: 32.26%; }
+
+		/*  GO FULL WIDTH BELOW 480 PIXELS */
+		@media only screen and (max-width: 480px) {
+			.col {  margin: 1% 0 1% 1.6%; }
+			/*.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }*/
+			.span_3_of_3 { width: 100%; }
+			.span_2_of_3 { width: 66.13%; }
+			.span_1_of_3 { width: 32.26%; }
+		}
+		
+		.dot {
+			display: inline-block;
+			border-radius: 50%;
+			height: 38px;
+			width: 38px;
+			text-align: center;
+			line-height: 38px;
+			vertical-align: middle;
+			padding: 6px;
+			background-color: #f2b138;
+		}
+		.dotverticaltop {
+			vertical-align: top;
+		}
+		.dot i {
+			/*font-size: 36px;*/
+			font-size: 28px;
+			line-height: 38px;
+			color: #123b40;
+			border: none;
+			text-decoration: none;
+		}
+		.fahighlight {
+			color: #123b40 !important;
+		}
+		.dothighlight {
+			background-color: #f2b138;
+		}
+		.iconslinkstexts {
+			display: block;
+			color: #f2b138;
+			border: none;
+			margin-top: 5px;
+			margin-bottom: 15px;
+			text-decoration: none;
+			font-size: 0.8em;
+		}
+		.iconslinkstextsfloat {
+			display: inline-block;
+			color: #f2b138;
+			border: none;
+			margin-left: 5px;
+			text-decoration: none;
+			font-size: 0.8em;
+			min-height: 42px;
+			line-height: 1.6;
+			vertical-align: middle;
+			text-align: left;
+		}
+		.iconslinkstextshighlight {
+			color: #f2b138;
+		}
+		.iconslinkstexts strong, .iconslinkstextsfloat strong {
+			font-weight: normal;
+		}
+		.clearall {
+			clear: both;
+		}
+		.aligncenter {
+			text-align: center;
+		}
+		.f80size {
+			font-size: 0.8em;
+		}
+		.topmargin0 {
+			margin-top: 0px;
+		}
+		
+		.socialarea {
+			display: block;
+			margin-block-start: 0em;
+			margin-block-end: 0em;
+			margin-inline-start: 0px;
+			margin-inline-end: 0px;
+			text-align: center;
+			/*background: rgba(209,209,188,0.3);*/
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+		.socialarea .dot {
+			margin: 10px 5px;
+			/*background-color: #8abfb0;*/
+			border: 2px solid #1DDDF2;
+			background-color: initial;
+			height: 30px;
+			width: 30px;
+			line-height: 30px;
+		}
+		.socialarea .dot i {
+			color: #F2E9C2;
+			font-size: 24px;
+			line-height: 30px;
+		}
+		footer {
+			text-align: center;
+			padding: 3px;
+			font-size: 0.8em;
+		}
+		.avatar {
+			float: left;
+		}
+		.avatar-85 {
+			border: 3px solid #ba9b65 !important;
+			border-radius: 85px;
+			margin-right: 10px;
+			margin-bottom: 5px;
+		}
+		.photo {
+			max-width: 100%;
+			vertical-align: middle;
+			border: 0;
+		}
+		.verticalaligntop {
+			vertical-align: top;
+		}
+		.lineheight1-6 {
+			line-height: 1.6;
+		}
+		
+		.button {
+			border: none;
+			color: white;
+			padding: 15px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-size: 16px;
+			margin: 4px 2px;
+			cursor: pointer;
+		}
+		.button2 {
+			background-color: #3a8c8c;
+			border-radius: 4px; 
+		}
+		.button2:hover {
+			background-color: #123b40;
+			color: white;
+		}
+		.button3 {
+			background-color: #f2b138;
+			border-radius: 4px;
+			text-transform: uppercase;
+			color: #733924;
+		}
+		.button3:hover {
+			background-color: #f2a03d;
+			color: white;
+		}
+		.buttoncenter { margin: 0px auto; }
+		
+		.dotcircle {
+			display: inline-block;
+			border-radius: 50%;
+			height: 22px;
+			width: 22px;
+			text-align: center;
+			line-height: 22px;
+			vertical-align: middle;
+			padding: 3px;
+			/*background-color: #3a8c8c;*/
+			background-color: #000;
+			border: 3px solid #ffba00;
+		}
+		.dotcircle i {
+			font-size: 16px;
+			line-height: 20px;
+			color: #fff;
+			border: none;
+			text-decoration: none;
+		}
+		.warningalertcolor {
+			color: #ffba00 !important;
+		}
+		.alertred {
+			color: #D9D1C7;
+		}
+		.topmargin0 {
+			margin-top: 0px;
+		}
+	</style>
+	
+	<link rel="stylesheet" href="https://mauriciojun.github.io/card/css/all.css"/>
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170661785-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-170661785-1');
+	</script>
+	
+	<!-- Google Tag Manager -->
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-5J2FBDK');</script>
+	<!-- End Google Tag Manager -->
+	
+</head>
+<body>
+	
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5J2FBDK"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
+	
+	<div id="main">
+		
+		<div id="mainheader">
+			<div id="header">
+				<h1 class="titleHeader">
+					<a href="https://mauriciojun.github.io/card/?utm_source=pwa">
+						<img alt="Mauricio Jun - DCard" id="imageHeader" src="imgs/mauricio-jun-logo-horizontal-projetos-web-vinho-02.png" class="imageResponsive" width="840" height="211" title="Mauricio Jun - DCard"/>
+					</a>
+				</h1>
+			</div>
+		</div>
+		
+		<div id="content">
+			
+			<h2 class="subtitle">CARTÃO DIGITAL<span>  .  INTERAJA TOCANDO NOS ÍCONES</span></h2>
+			
+			<div id="contentarea">
+				
+				<p class="topmargin0 f80size alertred aligncenter">Para utilizar todos os recursos, você precisa estar conectado à internet.</p>
+				
+				<div id="maintabs">
+					<div class="tab">
+						<button class="tablinks" onclick="openTab(event, 'CONTATOS')" id="defaultOpen">CONTATOS</button>
+						<button class="tablinks" onclick="openTab(event, 'MAPA')">MAPA</button>
+						<button class="tablinks" onclick="openTab(event, 'SOBRE')">SOBRE</button>
+					</div>
+					<div id="CONTATOS" class="tabcontent">
+						<!-- <p class="aligncenter f80size topmargin0">Clique nos ícones para interagir.</p> -->
+						<div class="section group">
+							<div class="col span_1_of_3">
+								<a href="tel:+5521983251504" target="_blank" class="dot" title="Ligar"><i class="fas fa-mobile-alt"></i></a><div class="clearall"></div>
+								<a href="tel:+5521983251504" target="_blank" class="iconslinkstexts" title="Ligar"><strong>Ligar</strong></a>
+							</div>
+							<div class="col span_1_of_3">
+								<a href="https://wa.me/5521983251504" target="_blank" class="dot" title="WhatsApp"><i class="fab fa-whatsapp"></i></a><div class="clearall"></div>
+								<a href="https://wa.me/5521983251504" target="_blank" class="iconslinkstexts" title="WhatsApp"><strong>WhatsApp</strong></a>
+							</div>
+							<div class="col span_1_of_3">
+								<a href="sms:+5521983251504" target="_blank" class="dot" title="SMS"><i class="fas fa-sms"></i></a><div class="clearall"></div>
+								<a href="sms:+5521983251504" target="_blank" class="iconslinkstexts" title="SMS"><strong>SMS</strong></a>
+							</div>
+						</div>
+						<div class="section group">
+							<div class="col span_1_of_3">
+								<a href="https://m.me/mauricio.jun.ti" target="_blank" class="dot" title="Messenger"><i class="fab fa-facebook-messenger"></i></a><div class="clearall"></div>
+								<a href="https://m.me/mauricio.jun.ti" target="_blank" class="iconslinkstexts" title="Messenger"><strong>Messenger</strong></a>
+							</div>
+							<div class="col span_1_of_3">
+								<a href="mailto:mauriciojun.ti@gmail.com" target="_blank" class="dot" title="E-mail"><i class="fa fa-envelope"></i></a><div class="clearall"></div>
+								<a href="mailto:mauriciojun.ti@gmail.com" target="_blank" class="iconslinkstexts" title="E-mail"><strong>E-mail</strong></a>
+							</div>
+							<div class="col span_1_of_3">
+								<a href="https://drive.google.com/uc?id=1-LZ2FWYIsN87fppwRqrwD7O_B6KsMAC6&export=download" target="_blank" class="dot dothighlight" title="Baixar contato"><i class="far fa-address-card fahighlight"></i></a><div class="clearall"></div>
+								<a href="https://drive.google.com/uc?id=1-LZ2FWYIsN87fppwRqrwD7O_B6KsMAC6&export=download" target="_blank" class="iconslinkstexts iconslinkstextshighlight" title="Baixar contato"><strong>Baixar contato</strong></a>
+							</div>
+						</div>
+					</div>
+					<div id="MAPA" class="tabcontent">
+						<p class="aligncenter topmargin0">
+							<a href="https://goo.gl/maps/voyg1ksimXrmhGd36" target="_blank" class="dot dothighlight dotverticaltop" title="Google Maps"><i class="fas fa-map-marker-alt fahighlight"></i></a>
+							<a href="https://goo.gl/maps/voyg1ksimXrmhGd36" target="_blank" class="iconslinkstextsfloat iconslinkstextshighlight" title="Google Maps"><strong>R. Maestro José Botelho, 171<br/>Santa Rosa - Niterói - RJ</strong></a>
+						</p>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14700.820604951412!2d-43.1012925!3d-22.9058028!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x998408ab897e3b%3A0x9dc61223646a474b!2sR.%20Maestro%20Jos%C3%A9%20Botelho%2C%20171%20-%20Santa%20Rosa%2C%20Niter%C3%B3i%20-%20RJ%2C%2024230-410!5e0!3m2!1spt-PT!2sbr!4v1593011543205!5m2!1spt-PT!2sbr" width="100%" height="170" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"></iframe>
+					</div>
+					<div id="SOBRE" class="tabcontent">
+						<p class="topmargin0">
+							<img alt="Mauricio Jun - Sobre" src="imgs/mauricio-jun-sobre-mobile.png" class="avatar avatar-85 photo verticalaligntop" height="85" width="85" title="Mauricio Jun - Sobre"/>
+							<span class="floatleft verticalaligntop lineheight1-6"><strong>Mauricio Jun</strong><br/>Soluções em design, produção e gestão em Projetos Web/TI, para pequenas empresas e empreendedores, com foco nos produtos gratuitos Google.<br/>Para saber mais, clique no botão ou link abaixo.</span>
+						</p>
+						<p class="aligncenter topmargin0">
+							<a href="https://mauriciojun-ti.blogspot.com" target="_blank" class="dot dothighlight" title="Site"><i class="fas fa-globe fahighlight"></i></a>
+							<a href="https://mauriciojun-ti.blogspot.com" target="_blank" class="iconslinkstextsfloat iconslinkstextshighlight" title="Site"><strong>Site:<br/>mauriciojun-ti.blogspot.com</strong></a>
+						</p>
+						<div class="clearall"></div>
+					</div>
+				</div>
+				
+				<div id="mainsocial" class="socialarea">
+					<a href="https://www.facebook.com/mauricio.jun.ti" target="_blank" class="dot" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+					<a href="https://www.youtube.com/channel/UCBu0o1Qgq-hNUo7eL4vdLRg" target="_blank" class="dot" title="Youtube"><i class="fab fa-youtube"></i></a>
+					<a href="https://www.instagram.com/mauriciojun_ti" target="_blank" class="dot" title="Instagram"><i class="fab fa-instagram"></i></a>
+					<a href="https://twitter.com/MauricioTi" target="_blank" class="dot" title="Twitter"><i class="fab fa-twitter"></i></a>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		<div id="footer">
+			<footer>
+				<p>
+					Copyleft <i class="fab fa-creative-commons-sa"></i> 
+					<span id="showyear"></span> 
+					<script>
+						var d = new Date();
+						var n = d.getFullYear();
+						document.getElementById("showyear").innerHTML = n;
+					</script>
+					<a href="mailto:mauriciojun.ti@gmail.com"><strong>Mauricio Jun</strong></a>. Cópia autorizada!
+				</p>
+			</footer>
+		</div>
+		
+	</div>
+	
+	<script>
+		function openTab(evt, tabName) {
+			var i, tabcontent, tablinks;
+			tabcontent = document.getElementsByClassName("tabcontent");
+			for (i = 0; i < tabcontent.length; i++) {
+				tabcontent[i].style.display = "none";
+			}
+			tablinks = document.getElementsByClassName("tablinks");
+			for (i = 0; i < tablinks.length; i++) {
+				tablinks[i].className = tablinks[i].className.replace(" active", "");
+			}
+			document.getElementById(tabName).style.display = "block";
+			evt.currentTarget.className += " active";
+			sendToAnalytics02(tabName,'tabs','Card Page - Offline');
+		}
+		
+		document.getElementById("defaultOpen").click();
+		var elmnttochange = document.getElementById("content");
+		var elmnt = document.getElementById("footer");
+		var elmntheight = 0;
+		elmntheight = elmnt.offsetHeight+"px";
+		elmnttochange.style.paddingBottom = elmntheight;
+		
+		window.onclick = function(e) { 
+			if (e.target.tagName.toLowerCase()==='a') {
+				if (e.target.title) {
+					sendToAnalytics02(e.target.title,'icons','Card Page - Offline');
+					console.log('Title = ' + e.target.title + ' | Tag Name = ' + e.target.tagName);
+				}
+			}
+			if (e.target.parentElement.tagName.toLowerCase()==='a') {
+				if (e.target.parentElement.title) {
+					sendToAnalytics02(e.target.parentElement.title,'icons','Card Page - Offline');
+					console.log('Title = ' + e.target.parentElement.title + ' | Tag Name = ' + e.target.parentElement.tagName);
+				}
+			}
+		};
+		function sendToAnalytics02(userChoice,eventName,eventCategory) {
+			gtag('event', eventName, {
+				'send_to': 'UA-170661785-1',
+				'event_category': eventCategory,
+				'event_label': userChoice
+			});
+			console.log('Send to anakytics 02 = ' + userChoice);
+		}
+	</script>
+   
+</body>
+</html>
