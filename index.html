@@ -639,7 +639,7 @@
 			<div id="header">
 				<h1 class="titleHeader">
 					<a href="https://mauriciojun.github.io/card/?utm_source=pwa">
-						<img alt="Mauricio Jun - DCard" id="imageHeader" src="imgs/mauricio-jun-logo-horizontal-projetos-web-vinho-02.png" class="imageResponsive" width="840" height="211" title="Mauricio Jun - DCard"/>
+						<img alt="Mauricio Jun - Card" id="imageHeader" src="imgs/mauricio-jun-logo-horizontal-projetos-web-vinho-02.png" class="imageResponsive" width="840" height="211" title="Mauricio Jun - Card"/>
 					</a>
 				</h1>
 			</div>
@@ -838,11 +838,11 @@
 		
 		if (isPwa()) {
 			fullbuttons.style.display = "none";
-			sendToAnalytics02('App','open','DCard Page');
+			sendToAnalytics02('App','open','Card Page');
 			console.log('window fullscreen - ' + isPwa());
 		} else {
 			fullbuttons.style.display = "block";
-			sendToAnalytics02('Web','open','DCard Page');
+			sendToAnalytics02('Web','open','Card Page');
 			console.log('window screen - Web');
 		}
 		function isPwa() { 
@@ -856,7 +856,7 @@
 			$( 'ul.at-expanding-share-button-services-list li' ).on( 'click', 'a', function() {
 				if ($( this ).find('title').text()) {
 					var sendicontitle = $( this ).find('title').text();
-					sendToAnalytics02(sendicontitle,'share','DCard Page - Addthis');
+					sendToAnalytics02(sendicontitle,'share','Card Page - Addthis');
 					console.log('Share Addthis clicado = ' + sendicontitle);
 				}
 			});
