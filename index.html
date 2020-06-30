@@ -22,7 +22,7 @@
 	<meta property="twitter:description" content="Mauricio Jun - Soluções em design, produção e gestão em Projetos Web/TI, para pequenas empresas e empreendedores, com foco nos produtos gratuitos Google."/>
 	<meta property="twitter:image" content="https://mauriciojun.github.io/card/imgs/logo-mauricio-jun-01-maior-1024x1024.png"/>
 	
-	<meta name="keywords" content="Terapeuta Ocupacional, Terapia Ocupacional, Alzheimer, Doença de Alzheimer, AVC, AVD, AVE, Déficit Cognitivo, Demência, Demência Vascular, Depressão, Desempenho Ocupacional, Estimulação Cognitiva, Geriatria, Gerontologia, Idoso, Idosos Ativos, Memória, Reabilitação Cognitiva, Reabilitação Funcional, Reabilitação Neurológica, Saúde Mental, Afasia, Agnosia, Arteterapia, Atendimento Domiciliar, Hemianopsia, Hemiparesia, Neurociência, Neuropsicologia, Niterói, Qualidade de Vida"/>
+	<meta name="keywords" content="Mauricio Jun, Tecnologia da Informação, Cartão virtual, Cartão Digital, Presença online, Sites, Redes Sociais, Empreendedorismo Digital, Projetos Digitais, soluções gratuitas"/>
 	<meta name="robots" content="index, follow"/>
 	
 	<link rel="icon" href="https://mauriciojun.github.io/card/favicon/android-chrome-512x512.png" type="image/png" sizes="16x16"/>
@@ -801,6 +801,9 @@
 		elmnttochange.style.paddingBottom = elmntheight;
 		
 		window.onclick = function(e) {
+			alert('click!!!');
+			alert('click 01 em = ' + e.target.tagName.toLowerCase());
+			alert('click 02 em = ' + e.target.parentElement.tagName.toLowerCase());
 			if (e.target.tagName.toLowerCase()==='a') {
 				if (e.target.title) {
 					sendToAnalytics02(e.target.title,'icons','Card Page');
