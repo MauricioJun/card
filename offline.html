@@ -620,7 +620,8 @@
 		elmntheight = elmnt.offsetHeight+"px";
 		elmnttochange.style.paddingBottom = elmntheight;
 		
-		window.onclick = function(e) { 
+		//window.onclick = function(e) { 
+		window.addEventListener("click", function(e) {
 			if (e.target.tagName.toLowerCase()==='a') {
 				if (e.target.title) {
 					sendToAnalytics02(e.target.title,'icons','Card Page - Offline');
@@ -633,7 +634,8 @@
 					console.log('Title = ' + e.target.parentElement.title + ' | Tag Name = ' + e.target.parentElement.tagName);
 				}
 			}
-		};
+		});
+		//};
 		function sendToAnalytics02(userChoice,eventName,eventCategory) {
 			gtag('event', eventName, {
 				'send_to': 'UA-170661785-1',
