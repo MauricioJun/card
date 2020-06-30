@@ -802,9 +802,6 @@
 		
 		//window.onclick = function(e) {
 		window.addEventListener("click", function(e) {
-			alert('click!!!');
-			alert('click 01 em = ' + e.target.tagName.toLowerCase());
-			alert('click 02 em = ' + e.target.parentElement.tagName.toLowerCase());
 			if (e.target.tagName.toLowerCase()==='a') {
 				if (e.target.title) {
 					sendToAnalytics02(e.target.title,'icons','Card Page');
